@@ -23,7 +23,7 @@ const Navbar = async () => {
   return (
     <header className="w-full bg-white sticky top-0 z-50 shadow-sm">
       {/* Top Promotional Banner */}
-      <MarqueeText text={marqueeText.data.text} />
+      <MarqueeText text={marqueeText?.data?.text} />
 
       {/* Main Header */}
       <div className="bg-white">
